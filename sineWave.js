@@ -1,10 +1,10 @@
 // The sine (sinusoidal) wave generator.
-com.littleDebugger.namespacer.createNamespace("com.littleDebugger.audioProcessing.waveGenerators.sineWave");
+com.littleDebugger.namespacer.createNamespace("littleDebugger.audioProcessing.waveGenerators.sineWave");
 
 // 'Constructor'
 // <offset> The offset of the initial phase in degrees. - Starting from 9 o'clock.
 // <sampleRate> The sample rate of the audio player. This is required for correct frequency waves.
-com.littleDebugger.audioProcessing.waveGenerators.sineWave = function(offset, sampleRate) {
+littleDebugger.audioProcessing.waveGenerators.sineWave = function(offset, sampleRate) {
     var circleRadians = 2 * Math.PI;
     var circleDegrees = 360;
 

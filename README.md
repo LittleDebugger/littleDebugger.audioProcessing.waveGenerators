@@ -1,4 +1,4 @@
-# com.littleDebugger.audioProcessing.waveGenerators
+# littleDebugger.audioProcessing.waveGenerators
 
 A reusable module to contain audio waveform generators.
 
