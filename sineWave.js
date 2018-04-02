@@ -1,5 +1,5 @@
 // The sine (sinusoidal) wave generator.
-com.littleDebugger.namespacer.createNamespace("littleDebugger.audioProcessing.waveGenerators.sineWave");
+littleDebugger.common.namespacer.createNamespace("littleDebugger.audioProcessing.waveGenerators.sineWave");
 
 // 'Constructor'
 // <offset> The offset of the initial phase in degrees. - Starting from 9 o'clock.
